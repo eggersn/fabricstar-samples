@@ -1,5 +1,5 @@
 #!/bin/bash
-./network.sh up
+./network.sh up -i 2.2
 
 echo "Sleep for 30 seconds"
 sleep 30
