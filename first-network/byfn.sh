@@ -185,8 +185,8 @@ function networkUp() {
 
   if [ "$CONSENSUS_TYPE" == "kafka" ]; then
     sleep 1
-    echo "Sleeping 20s to allow $CONSENSUS_TYPE cluster to complete booting"
-    sleep 19
+    echo "Sleeping 25s to allow $CONSENSUS_TYPE cluster to complete booting"
+    sleep 24
   fi
 
   if [ "$CONSENSUS_TYPE" == "etcdraft" ]; then
