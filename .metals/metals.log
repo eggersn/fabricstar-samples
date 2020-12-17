@@ -1,0 +1,17 @@
+2020.12.16 21:04:47 INFO  Started: Metals version 0.9.7 in workspace '/home/simon/go/src/github.com/hyperledger/fabric-samples' for client vscode.
+2020.12.16 21:04:48 INFO  time: initialize in 1.16s
+2020.12.16 21:04:50 WARN  Build server is not auto-connectable.
+2020.12.16 21:04:50 WARN  no build tool detected in workspace '/home/simon/go/src/github.com/hyperledger/fabric-samples'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.16 21:04:50 WARN  no build target for: /home/simon/go/src/github.com/hyperledger/fabric-samples/first-network/scripts/test.scala
+2020.12.16 21:04:52 INFO  no build target: using presentation compiler with only scala-library
+2020.12.16 21:05:22 WARN  no build target for: /home/simon/go/src/github.com/hyperledger/fabric-samples/first-network/scripts/test.scala
+2020.12.16 21:07:38 WARN  no build tool detected in workspace '/home/simon/go/src/github.com/hyperledger/fabric-samples'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.16 21:08:04 WARN  no build target for: /home/simon/go/src/github.com/hyperledger/fabric-samples/first-network/scripts/test.scala
+2020.12.16 21:08:45 WARN  no build target for: /home/simon/go/src/github.com/hyperledger/fabric-samples/first-network/scripts/test.scala
+2020.12.16 21:09:23 WARN  no build target for: /home/simon/go/src/github.com/hyperledger/fabric-samples/first-network/scripts/test.scala
+2020.12.16 21:10:32 WARN  no build tool detected in workspace '/home/simon/go/src/github.com/hyperledger/fabric-samples'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.16 21:10:35 WARN  no build target for: /home/simon/go/src/github.com/hyperledger/fabric-samples/first-network/scripts/test.scala
+2020.12.17 10:01:32 INFO  Started: Metals version 0.9.7 in workspace '/home/simon/go/src/github.com/hyperledger/fabric-samples' for client vscode.
+2020.12.17 10:01:35 INFO  time: initialize in 2.98s
+2020.12.17 10:01:38 WARN  Build server is not auto-connectable.
+2020.12.17 10:01:38 WARN  no build tool detected in workspace '/home/simon/go/src/github.com/hyperledger/fabric-samples'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
