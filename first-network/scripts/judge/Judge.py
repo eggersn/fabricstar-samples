@@ -60,7 +60,7 @@ def main():
     dir2 = basePath / "data/{}_blocks/blocks/".format(peer2_name)
     pkFile = pathlib.Path().parent.absolute().parent.parent / "KafkaKeyPair/public.key"
 
-    runGoCommand = "fabric_judge {} {} {} {} {} 10 512000".format(dir1, dir2, peer1_name, peer2_name, pkFile)
+    runGoCommand = "fabric_judge {} {} {} {} mychannel {} 10 512000".format(dir1, dir2, peer1_name, peer2_name, pkFile)
     process = subprocess.Popen(runGoCommand.split(), stdout=subprocess.PIPE)
     output, error = process.communicate()
 

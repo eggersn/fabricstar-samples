@@ -434,6 +434,7 @@ function generateChannelArtifacts() {
     configtxgen -profile TwoOrgsOrdererGenesis -channelID $SYS_CHANNEL -outputBlock ./channel-artifacts/genesis.block
   elif [ "$CONSENSUS_TYPE" == "kafka" ]; then
     configtxgen -profile SampleDevModeKafka -channelID $SYS_CHANNEL -outputBlock ./channel-artifacts/genesis.block
+    cp ./channel-artifacts/genesis.block ./channel-artifacts/genesis1.block
   elif [ "$CONSENSUS_TYPE" == "etcdraft" ]; then
     configtxgen -profile SampleMultiNodeEtcdRaft -channelID $SYS_CHANNEL -outputBlock ./channel-artifacts/genesis.block
   else

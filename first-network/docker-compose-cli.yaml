@@ -7,6 +7,9 @@ version: '2'
 
 volumes:
   orderer.example.com:
+  orderer2.example.com:
+  orderer3.example.com:
+  orderer4.example.com:
   peer0.org1.example.com:
   peer1.org1.example.com:
   peer0.org2.example.com:
@@ -24,6 +27,39 @@ services:
     container_name: orderer.example.com
     networks:
       - byfn
+
+  orderer2.example.com:
+    extends:
+      file:   base/docker-compose-base.yaml
+      service: orderer2.example.com
+    container_name: orderer2.example.com
+    networks:
+      - byfn
+    depends_on:
+      - orderer.example.com
+
+  orderer3.example.com:
+    extends:
+      file:   base/docker-compose-base.yaml
+      service: orderer3.example.com
+    container_name: orderer3.example.com
+    networks:
+      - byfn
+    depends_on:
+      - orderer.example.com
+      - orderer2.example.com
+
+  # orderer4.example.com:
+  #   extends:
+  #     file:   base/docker-compose-base.yaml
+  #     service: orderer4.example.com
+  #   container_name: orderer4.example.com
+  #   networks:
+  #     - byfn
+  #   depends_on:
+  #     - orderer.example.com
+  #     - orderer2.example.com
+  #     - orderer3.example.com
 
   peer0.org1.example.com:
     container_name: peer0.org1.example.com
