@@ -1,6 +1,6 @@
 ## Fabric* Samples
 Mostly based on [fabric-samples](https://github.com/hyperledger/fabric-samples) with small modifications in first-network.
-After following their official installation guide, a small Fabric* network can be started.
+After following their official installation guide, a small Fabric* network can be started. Please ensure, that all required docker images are locally installed beforehand (i.e. fabric_star/kafka, fabric_star/fabric-orderer and fabric_star/fabric-peer).
 
 ## Fabric* Judge Implementation
 After installing the Go counterpart [Fabric_Judge](https://github.com/eggersn/Fabric_Judge), the judging procedure can be executed in [first-network/scripts/judge](https://github.com/eggersn/fabricstar-samples/tree/master/first-network/scripts/judge).
